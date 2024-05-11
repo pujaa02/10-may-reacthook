@@ -10,9 +10,17 @@ function Timer() {
   });
   return (
     <>
-      <h1>Timer</h1>
-      <h2>Count : {count}</h2>
+      <h1>Timer : {count}</h1>
+      <hr />
     </>
   );
 }
 export default Timer;
+// useEffect(() => {
+//   //Runs only on the first render
+// }, []);
+
+// useEffect(() => {
+//   //Runs on the first render
+//   //And any time any dependency value changes
+// }, [prop, state]);

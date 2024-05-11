@@ -5,6 +5,7 @@ import Count2 from "./Count2";
 import Changecolor from "./Changecolor";
 import Car from "./Car";
 import Timer from "./Timer";
+import Timer2 from "./Timer2";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Changecolor />
       <Car />
       <Timer />
+      <Timer2 />
     </Fragment>
   );
 }

@@ -8,10 +8,10 @@ function Car() {
     color: "red",
   });
   const updateColor = () => {
-    // setCar((previousState) => {
-    //   return { ...previousState, color: "blue" };
-    // });
-    setCar({color:"blue"})
+    setCar((previousState) => {
+      return { ...previousState, color: "blue" };
+    });
+    // setCar({color:"blue"})
   };
 
   return (
